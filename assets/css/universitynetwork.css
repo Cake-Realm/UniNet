@@ -1,0 +1,63 @@
+.media-voting a {
+	display: inline-block;
+}
+.media-voting .media-voting-main {
+	font-size: 24px;
+	width: 60px;
+	display: inline-block;
+	text-align: center;
+	color: #999;
+}
+@keyframes vote-up-anim {
+	from {color: #999;}
+	to {color: #72c02c;}
+}
+.media-voting .media-voting-main .media-voted-up {
+	display: block;
+	color: #72c02c;
+}
+.media-voting .media-voting-main .media-voting-up {
+	display: block;
+}
+.media-voting .media-voting-main .media-voting-up:hover {
+	cursor: pointer;
+	animation: vote-up-anim 0.3s linear forwards;
+}
+@keyframes vote-down-anim {
+	from {color: #999;}
+	to {color: #e74c3c;}
+}
+.media-voting .media-voting-main .media-voted-down {
+	display: block;
+	color: #e74c3c;
+}
+.media-voting .media-voting-main .media-voting-down {
+	display: block;
+	line-height: 16px;
+}
+.media-voting .media-voting-main .media-voting-down:hover {
+	cursor: pointer;
+	animation: vote-down-anim 0.3s linear forwards;
+}
+.media-voting .media-voting-main .media-voting-value {
+	display: block;
+	line-height: 24px;
+}
+.media-tick-main {
+	padding: 25px 5px 20px !important;
+}
+.media-body .media-tick {
+	float: right; color: #72c02c; font-size: 38px; width: 50px;
+}
+.footer-socials .report-icon {
+	padding-left: 10px;
+	margin-left: 5px;
+	border-left: 1px solid #bbb;
+}
+.answer-button {
+	position: absolute;
+	left: calc(100% - 116px);
+	top: calc(100% - 35px);
+	border-radius: 10px 0px 0px 00px;
+	color: #777;
+}

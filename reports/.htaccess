@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteBase /reports/
+RewriteRule ^p([0-9]+)$ index.php?page=$1 [NC,L,QSA]

@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteBase /university/
+RewriteRule ^([0-9a-zA-Z\_\-\/,]+)$ university.php?uniName=$1 [NC,L,QSA]

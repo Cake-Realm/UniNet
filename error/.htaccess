@@ -1,0 +1,5 @@
+IndexIgnore *
+Options -Indexes
+RewriteEngine On
+RewriteBase /error/
+RewriteRule ^([0-9a-zA-Z\_\-]+)$ $1.php [NC,L,QSA]

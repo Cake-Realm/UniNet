@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /profile/
+RewriteRule ^([0-9a-zA-Z\_\-]+)/$ index.php?name=$1 [NC,L,QSA]
+RewriteRule ^([0-9a-zA-Z\_\-]+)/friends/$ friend.php?name=$1 [NC,L,QSA]

@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteBase /settings/
+RewriteRule ^account/$ account.php [NC,L,QSA]

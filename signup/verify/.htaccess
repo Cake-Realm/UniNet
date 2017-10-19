@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteBase /signup/verify/
+RewriteRule ^([0-9]{12})$ index.php?emailCode=$1 [NC,L,QSA]

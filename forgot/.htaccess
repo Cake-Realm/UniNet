@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteBase /forgot/
+RewriteRule ^([0-9]{12})$ forgot.php?resetCode=$1 [NC,L,QSA]
